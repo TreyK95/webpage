@@ -111,6 +111,12 @@ html {
   position: relative;
   transition: color 0.2s;
 }
+.change.navbar-link {
+  color: #fff;
+}
+.change.navbar-link::before {
+  width: 130%;
+}
 .navbar-link:hover {
   color: #fff;
 }
